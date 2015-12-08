@@ -107,7 +107,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 
 
     root = Environment.getExternalStorageDirectory();
-    folder = new File(root,"/METER"); // reinstated 3 Nov 14
+    folder = new File(root,""); // reinstated 3 Nov 14
 
 	String log_type = getString(R.string.log_type);
 	String logFileName = log_type + "_vote.txt";
