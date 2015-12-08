@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">voter</string>
+    <string name="action_settings">Settings</string>
+    <string name="location_hint">enter location</string>
+    <string name="log_text">What are you doing?</string>
+    <string name="log_type">a</string>
+    <string name="question">When should data be collected?</string>
+    <string name="a1">Winter weekdays</string>
+    <string name="a2">All year</string>
+
+</resources>

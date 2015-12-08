@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <Button
+        android:id="@+id/btn_a1"
+		android:background="@drawable/button_yes"
+        android:layout_width="100pt"
+        android:layout_height="80pt"
+        android:layout_weight=".20"
+        android:textSize="20dip"
+        android:text="@string/a1" />
+
+    <Button
+        android:id="@+id/btn_a2"
+		android:background="@drawable/button_no"
+        android:layout_width="100pt"
+        android:layout_height="80pt"
+        android:layout_weight=".20"
+        android:textSize="20dip"
+        android:text="@string/a2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="2"
+		android:text="@string/question"
+        android:textSize="34dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/PhilView"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:src="@drawable/meter_logo_small" />
+        <LinearLayout
+            android:id="@+id/view_drawing_pad"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
